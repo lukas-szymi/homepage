@@ -9,6 +9,13 @@ body {
   top: 10px;
   left: 5px;
 }
+.navigation .navigation__link {
+  text-decoration: none;
+  color: #000;
+}
+.navigation .navigation__link:active{
+  color: #000;
+}
 
 .header {
   text-align: center;

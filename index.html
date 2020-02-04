@@ -11,70 +11,77 @@
 </head>
 
 <body>
-  <nav class="navigation">
-    <ul class="navigation__header">
-      <li class="navigation__list">
-        <a class="navigation__link" href="index.html">Strona Główna</a>
-      </li>
-      <li class="navigation__list">
-        <a class="navigation__link" href="plsql_blog.html">PL/SQL</a>
-      </li>
-    </ul>
-
-
-  </nav>
-  <main class="main">
-
-    <header class="header">
-      <article class="header__info">
-        <h1 class="header__info__title">Łukasz Szymański - Blog</h1>
-        <p class="header__info__quote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, fugiat hic. Sint
-          laudantium maxime soluta?
-          Reiciendis consectetur aliquam omnis placeat illum, possimus rem quo, consequuntur consequatur fugit, ducimus
-          odit dignissimos.</p>
-      </article>
-    </header>
-    <section class="last_article">
-      <h2 class="last_article__header">Last Article</h2>
-      <article class="last_article__content">
-        <h3 class="last_article__content__header">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-        <img src="image/last_release.jpg" class="last_article__content__image" alt="image of last added article" />
-        <p class="last_article__content__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et dicta
-          amet fugit commodi reprehenderit
-          repellendus voluptatem atque magni, corrupti aliquam quisquam, temporibus dolorum veniam officiis quasi ea
-          perferendis laborum nam.lorem
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto amet praesentium quaerat enim magnam explicabo
-          rem reiciendis ducimus veritatis quasi, illum eum? Libero repellendus delectus earum molestias inventore iste
-          eaque!
-        </p>
-      </article>
-    </section>
-    <section id="about" class="about">
-      <h2 class="about__header">O Mnie</h2>
-      <article class="about__container">
-        <h3 class="about__title">Główne Technologie w pracy</h3>
-        <ul class="about__list">
-          <li class="about__element">PL/SQL</li>
-          <li class="about__element">Oracle APEX</li>
-          <li class="about__element">JavaScript</li>
-          <li class="about__element">HTML</li>
-          <li class="about__element">CSS</li>
-        </ul>
-      </article>
-      <article class="about__container">
-        <h3 class="about__title">Moje Projekty</h3>
-        <ul class="about__list">
-          <li class="about__element">Weekly 1</li>
-          <li class="about__element">Weekly 2</li>
-          <li class="about__element">Weekly 3</li>
-        </ul>
-      </article>
-    </section>
-    <div class="empty__container--js"></div>
-  </main>
-  <footer class="footer">
-    Blog Łukasz Szymański.
-  </footer>
+  <div class="wrapper">
+    <nav class="navigation">
+      <ul class="navigation__header">
+        <li class="navigation__list">
+          <a class="navigation__link" href="index.html">Strona Główna</a>
+        </li>
+        <li class="navigation__list">
+          <a class="navigation__link" href="plsql_blog.html">PL/SQL</a>
+        </li>
+      </ul>
+    </nav>
+    <main class="main">
+      <header class="header">
+        <article class="header__info">
+          <h1 class="header__info__title">Łukasz Szymański - Blog</h1>
+          <p class="header__info__quote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, fugiat hic.
+            Sint
+            laudantium maxime soluta?
+            Reiciendis consectetur aliquam omnis placeat illum, possimus rem quo, consequuntur consequatur fugit,
+            ducimus
+            odit dignissimos.</p>
+        </article>
+      </header>
+      <section class="last_article">
+        <h2 class="last_article__header">Last Article</h2>
+        <article class="last_article__content">
+          <img src="image/last_release.jpg" class="last_article__content__image" alt="image of last added article" />
+          <div>
+            <h3 class="last_article__content__header">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+            <p class="last_article__content__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+              dicta
+              amet fugit commodi reprehenderit
+              repellendus voluptatem atque magni, corrupti aliquam quisquam, temporibus dolorum veniam officiis quasi ea
+              perferendis laborum nam.lorem
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto amet praesentium quaerat enim magnam
+              explicabo
+              rem reiciendis ducimus veritatis quasi, illum eum? Libero repellendus delectus earum molestias inventore
+              iste
+              eaque!
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="about" class="about">
+        <h2 class="about__header">O Mnie</h2>
+        <div class="about__container">
+          <article>
+            <h3 class="about__title">Główne Technologie w pracy</h3>
+            <ul class="about__list">
+              <li class="about__element">PL/SQL</li>
+              <li class="about__element">Oracle APEX</li>
+              <li class="about__element">JavaScript</li>
+              <li class="about__element">HTML</li>
+              <li class="about__element">CSS</li>
+            </ul>
+          </article>
+          <article>
+            <h3 class="about__title">Moje Projekty</h3>
+            <ul class="about__list">
+              <li class="about__element">Weekly 1</li>
+              <li class="about__element">Weekly 2</li>
+              <li class="about__element">Weekly 3</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Blog Łukasz Szymański.</p>
+    </footer>
+  </div>
 </body>
 <script src="script.js"></script>
 

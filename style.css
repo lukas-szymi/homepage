@@ -12,13 +12,17 @@ body {
   width: 1024px;
   margin: 0 auto;
 }
-
+.wrapper {
+  display: grid;
+}
 .navigation {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #ddd;;
 }
+
 .navigation__header {
   display: flex;
   justify-content: center;
@@ -40,6 +44,9 @@ body {
 
 .main {
   margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20% 1fr 40%;
 }
 
 .header {
@@ -49,9 +56,26 @@ body {
 .last_article .last_article__header {
   text-align: center;
 }
+.last_article__content{
+  display: flex;
+}
+.last_article__content__image {
+  margin-right: 16px;
+  width: 25%;
+  height: 100%;
+  border-radius: 25%;
+}
 
-.about .about__header {
-  text-align: center;
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about__container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .footer {
